@@ -9,32 +9,25 @@
     android:gravity="center">
 
 
-
     <ImageView
         android:id="@+id/idimagen"
-        android:layout_width="500dp"
-        android:layout_height="600dp"
-        android:background="@drawable/milco"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+        android:background="@drawable/milco" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Genera tu codigo QR"
+        android:text="Scanea tu codigo"
+        android:textSize="25sp"
         android:gravity="center"/>
-
-
-
-    android:layout_gravity="center"
-        android:background="@drawable/milco"
 
      <Button
          android:id="@+id/btnAccion"
-
          android:layout_width="200dp"
          android:layout_height="wrap_content"
          android:layout_gravity="center"
-         android:background="#3FB54B"
+         android:background="@drawable/button"
          android:text="QR"
          android:textSize="25dp"
          android:padding="20sp" />
